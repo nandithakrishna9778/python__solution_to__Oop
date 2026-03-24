@@ -1,0 +1,28 @@
+It is helpful to examine how each method manages data, hardware, and human intervention in order to fully comprehend the differences. Though they function very differently in practice, deep learning is technically a specialised subfield of machine learning.
+
+Feature Engineering
+
+MACHINE LEARNING
+Before feeding the data to the algorithm, machine learning (ML) requires a human expert to manually identify and extract the key features (eg explicitly telling the model to look at a person's age and income to predict credit risk).
+
+DEEP LEARNING
+Identifies the characteristics that best describe the data automatically. The neural network determines on its own that edges, shapes, and textures are the key elements to examine when you feed it raw data, such as a picture of a face.
+
+Algorithms for Machine Learning
+
+Typically these statistical models are tailored to identify patterns in structured data:
+When predicting a continuous numerical value, such as the price of a house based on its square footage, linear regression is utilised.
+For binary classification (such as determining whether an email is "Spam" or "Not Spam"), logistic regression is utilised.
+Decision Trees: A model that resembles a flowchart and divides data according to basic rules 
+   (e.g., "If age > 18 AND income > 50k, approve loan")
+Random Forest: An "ensemble" technique that builds dozens of Decision Trees and combines their results to produce a prediction that is more reliable and accurate.
+Support Vector Machines (SVM): Finds the optimal line (or hyperplane) that best separates different categories of data.
+
+Algorithms for Deep Learning
+
+These draw inspiration from the structure of the human brain and are based on Artificial Neural Networks:
+
+The typical multi-layered network used for intricate regressions and classifications is called an artificial neural network (ANN).
+Convolutional Neural Networks (CNN): Specifically made to handle data that resembles a grid. They are the industry standard for computer vision, facial recognition, and image recognition.
+Recurrent Neural Networks (RNN): Designed to identify patterns in data sequences. They have a "memory" of previous inputs, making them great for time-series forecasting, speech recognition, and translation.
+Transformers: A contemporary architecture with a strong emphasis on "attention" mechanisms that processes sequential data in parallel. Large Language Models, such as the one you are currently interacting with, are constructed using this architecture.
